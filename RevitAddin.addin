@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RevitAddin</Text>
+    <Description></Description>
+    <Assembly>RevitAddin.dll</Assembly>
+    <FullClassName>RevitAddin.Command</FullClassName>
+    <ClientId>7D7745A0-FDFE-44CA-99E4-1D581ECC865E</ClientId>
+    <VendorId></VendorId>
+    <VendorDescription></VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RevitAddin</Name>
+    <Assembly>RevitAddin.dll</Assembly>
+    <FullClassName>RevitAddin.App</FullClassName>
+    <ClientId>7D7745A0-FDFE-44CA-99E4-1D581ECC865E</ClientId>
+    <VendorId></VendorId>
+    <VendorDescription></VendorDescription>
+  </AddIn>
+</RevitAddIns>
